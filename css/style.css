@@ -1,12 +1,20 @@
 *{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 img{
     width: 100%;
+    margin-top: 10px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+img:hover{
+    scale: 1.1;
 }
 
 .img-box{
+    
     max-width: 400px;
     margin: auto;
 }
@@ -16,7 +24,7 @@ h1{
 }
 
 ul{
-    margin-top: 20px;
+    margin-top: 40px;
    
 }
 
