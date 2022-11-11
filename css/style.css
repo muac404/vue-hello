@@ -1,0 +1,22 @@
+*{
+    font-family: 'Pacifico', cursive;
+}
+
+img{
+    width: 100%;
+}
+
+.img-box{
+    max-width: 400px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    margin-top: 20px;
+   
+}
+

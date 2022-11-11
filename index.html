@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vue Hello</title>
+        <!-- VUE JS CDN -->
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <div id="app">
+            
+            <h1>{{ message }}</h1>
+            <div class="img-box">
+                <img :src="imageUrl" alt="">
+            </div>
+            <ul class="items">
+                <li>{{ skillOne }}</li>
+                <li>{{ skillTwo }}</li>
+                <li>{{ skillThree }}</li>
+            </ul>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
